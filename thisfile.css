@@ -13,7 +13,8 @@ h1 {
 #site-title {
     font-size: 24px; /* Example style for the element with the "site-title" ID */
 }
+
+
 body {
-    background-color: #FFD1AA;
-    font-size: 18px;
+    background-color: gold;
 }
