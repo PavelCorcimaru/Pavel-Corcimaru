@@ -18,3 +18,31 @@ h1 {
 body {
     background-color: gold;
 }
+/* Element Selector */
+h1 {
+    color: blue;
+}
+.bird {
+    font-style: italic;
+}
+#site-title {
+    text-align: center;
+}
+.nav-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.content {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
