@@ -1,3 +1,8 @@
+.featured{
+    font-size:100px;
+    font-family:Helvetica;
+}
+
 h1 {
     color: brown;
     text-decoration: line-through;
