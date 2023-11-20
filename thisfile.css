@@ -9,12 +9,6 @@
     color:purple;
 }
 
-
-h1 {
-    color: brown;
-    text-decoration: line-through;
-}
-
 .bird {
     color: wheat;
     text-align: center;
@@ -30,10 +24,7 @@ h1 {
 body {
     background-color: gold;
 }
-/* Element Selector */
-h1 {
-    color: blue;
-}
+
 .bird {
     font-style: italic;
 }
