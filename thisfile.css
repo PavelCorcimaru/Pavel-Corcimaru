@@ -43,13 +43,6 @@ body {
     border: 1px solid #ccc;
 }
 
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 .barthingy {
     visibility: hidden;
 }
