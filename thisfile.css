@@ -3,6 +3,13 @@
     font-family:Helvetica;
 }
 
+.feat-title{
+    font-weight:bolder;
+    font-family:fantasy;
+    color:purple;
+}
+
+
 h1 {
     color: brown;
     text-decoration: line-through;
