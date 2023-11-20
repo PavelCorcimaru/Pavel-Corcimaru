@@ -43,10 +43,6 @@ body {
     border: 1px solid #ccc;
 }
 
-.barthingy {
-    visibility: visible;
-}
-
 .bird {
     opacity: 0.5;
 }
