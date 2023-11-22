@@ -8,7 +8,7 @@ body {
         background-color: gold;
     }
     to {
-        background-color: brightness(yellow, 7.5);
+        background-color: yellow;
     }
 }
 
