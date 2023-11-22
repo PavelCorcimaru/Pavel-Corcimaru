@@ -1,6 +1,15 @@
-/* Common Styles */
 body {
     background-color: gold;
+    animation: colorCycle 5s infinite alternate;
+}
+
+@keyframes colorCycle {
+    from {
+        background-color: gold;
+    }
+    to {
+        background-color: brightness(gold, 1.5);
+    }
 }
 
 .bird {
@@ -16,12 +25,10 @@ body {
     display: none;
 }
 
-/* Navigation Styles */
 .barthingy {
     visibility: visible;
 }
 
-/* Featured Content Styles */
 .featured {
     font-size: 10px;
     font-family: Helvetica;
@@ -33,25 +40,14 @@ body {
     color: purple;
 }
 
-/* Navigation Bar Styles */
-.nav-bar {
+.nav-bar, .footer {
     background-color: #333;
     color: white;
     padding: 10px;
 }
 
-/* Content Styles */
 .content {
     margin: 20px;
     padding: 10px;
     border: 1px solid #ccc;
 }
-
-/* Footer Styles */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
