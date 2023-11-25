@@ -9,7 +9,7 @@
 
 body {
     background-color: gold;
-    animation: colorCycle 1s infinite alternate;
+    animation: colorCycle 0.3s infinite alternate;
 }
 
 .bird {
