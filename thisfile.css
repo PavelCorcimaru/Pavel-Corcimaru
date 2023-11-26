@@ -55,12 +55,20 @@ a:focus {
 }
 
 /* Pseudo-element */
+.content p::first-line {
+    font-style: italic; /* Style the first line of paragraphs */
+}
+
+/* Pseudo-element */
 .content p:first-child::first-letter {
     font-size: 150%; /* Increase the size of the first letter in the first paragraph */
 }
 
 /* Pseudo-class */
 .content img.interactive-image:focus {
+    border: 2px solid orange; /* Add border to images on focus */
+}
+
     border: 2px solid orange; /* Add border to images on focus */
 }
 
