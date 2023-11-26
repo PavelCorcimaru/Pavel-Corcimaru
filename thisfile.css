@@ -52,11 +52,9 @@ a:focus {
     font-size: 10px;
     font-family: Helvetica;
     opacity: 0.8; /* Set the desired opacity value */
-}
-
-/* Pseudo-element */
-.content p::first-line {
-    font-style: italic; /* Style the first line of paragraphs */
+    margin-top: 20px; /* Adding margin-top */
+    padding: 10px; /* Adding padding */
+    border: 1px solid #ccc;
 }
 
 /* Pseudo-element */
@@ -65,11 +63,16 @@ a:focus {
 }
 
 /* Pseudo-class */
-.content img.interactive-image:focus {
-    border: 2px solid orange; /* Add border to images on focus */
+.content img.interactive-image {
+    height: 300px;
+    transition: height 2s, filter 1s;
+    margin-top: 10px; /* Adding margin-top */
 }
 
-    border: 2px solid orange; /* Add border to images on focus */
+/* Pseudo-class */
+.content img.interactive-image:hover {
+    height: 310px;
+    filter: brightness(110%);
+    border: 2px solid orange; /* Add border on hover */
 }
 
-}
