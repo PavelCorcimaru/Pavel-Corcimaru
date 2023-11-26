@@ -12,52 +12,55 @@ body {
     animation: colorCycle 0.3s infinite alternate;
 }
 
-.bird {
-    color: wheat;
-    text-align: center;
-    background-color: black;
+/* Pseudo-class */
+.bird:hover {
+    color: red; /* Change color on hover */
+}
+
+/* Pseudo-class */
+a:link {
+    color: blue; /* Style unvisited links */
+}
+
+/* Pseudo-class */
+a:visited {
+    color: purple; /* Style visited links */
+}
+
+/* Pseudo-class */
+a:focus {
+    outline: 2px solid orange; /* Style links on focus */
+}
+
+/* Pseudo-element */
+.barthingy::after {
+    content: " - This is added using ::after";
+    color: green;
     font-style: italic;
 }
 
-#site-title {
-    font-size: 24px;
-    text-align: center;
+/* Pseudo-element */
+.content::before {
+    content: "Content Section";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
 }
 
-
-.barthingy {
-    visibility: visible;
-
-img {
-    height: 300px;  
-    transition: height 2s, filter 1s;
+/* Pseudo-element */
+.featured ul li::before {
+    content: '\2022'; /* Add bullet point before each list item */
+    margin-right: 8px;
 }
 
-img.interactive-image:hover {
-    height: 310px;
-    filter: brightness(110%);
-}
-}
-
-.featured {
-    font-size: 10px;
-    font-family: Helvetica;
+/* Pseudo-element */
+.content p:first-child::first-letter {
+    font-size: 150%; /* Increase the size of the first letter in the first paragraph */
 }
 
-.feat-title {
-    font-weight: bolder;
-    font-family: fantasy;
-    color: purple;
+/* Pseudo-class */
+.content img.interactive-image:focus {
+    border: 2px solid orange; /* Add border to images on focus */
 }
 
-.nav-bar, .footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-}
-
-.content {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
 }
