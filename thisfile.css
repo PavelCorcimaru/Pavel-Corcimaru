@@ -116,6 +116,8 @@ a:focus {
 }
 
 /* Change link color to lime on hover */
-a:hover {
+.nav-bar a:hover,
+.footer a:hover,
+.content a:hover {
     color: lime;
 }
