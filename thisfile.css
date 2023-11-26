@@ -48,9 +48,10 @@ a:focus {
 }
 
 /* Pseudo-element */
-.featured ul li::before {
-    content: '\2022'; /* Add bullet point before each list item */
-    margin-right: 8px;
+.featured {
+    font-size: 10px;
+    font-family: Helvetica;
+    opacity: 0.8; /* Set the desired opacity value */
 }
 
 /* Pseudo-element */
