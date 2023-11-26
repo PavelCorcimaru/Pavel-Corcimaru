@@ -114,3 +114,8 @@ a:focus {
     padding: 10px;
     border: 1px solid #ccc;
 }
+
+/* Change link color to lime on hover */
+a:hover {
+    color: lime;
+}
